@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=JetBrains+Mono:wght@100..400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --animate-spin-slow: spin 12s linear infinite;
+}
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/p6.png");
+}
